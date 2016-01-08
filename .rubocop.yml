@@ -1,0 +1,21 @@
+Encoding:
+  Enabled: false
+
+CyclomaticComplexity:
+  Enabled: false
+
+PerceivedComplexity:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+EmptyLinesAroundBody:
+  Enabled: false
+
+LineLength:
+  Enabled: true
+  Max: 180
+
+MethodLength:
+  Enabled: false
