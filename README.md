@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-### Version line matching
+#### Version line matching
 
 The changelog parser always tries to match 2 elements: version number and release date.
 The regexp used for parsing is expected to have 2 match groups corresponding to these elements:
@@ -35,7 +35,7 @@ For example:
 ```ruby
 require 'changelog_grep'
 
-str = File.read('lib/spec/fixtures/long.md')
+str = File.read('lib/spec/fixtures/changelog.md')
 chlog = ChangelogGrep::Changelog.new(changelog: str)
 chlog.parse
 rel_vers1 = chlog.find_all(from_date: '2015-10-01')

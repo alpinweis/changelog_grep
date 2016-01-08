@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '= 0.26.1'
 
   spec.add_runtime_dependency 'github-markup', '~> 1.3'
-  spec.add_runtime_dependency 'redcarpet', '~> 3.3'
+  spec.add_runtime_dependency 'redcarpet'
 end
